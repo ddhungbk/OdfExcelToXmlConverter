@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Odf Excel To Xml Converter_browser.jnlp">
+  <information>
+    <title>Odf Excel To Xml Converter</title>
+    <vendor>Dolphin Technology Vietnam</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OdfExcelToXmlConverter.jar" size="11983652" download="eager" />
+    <jar href="lib/dom4j-1.6.jar" size="313359" download="eager" />
+    <jar href="lib/jdom-1.1.1.jar" size="152797" download="eager" />
+    <jar href="lib/jopendocument-1.3.jar" size="3045731" download="eager" />
+    <jar href="lib/poi-3.9.jar" size="1869113" download="eager" />
+    <jar href="lib/poi-ooxml-3.9.jar" size="936648" download="eager" />
+    <jar href="lib/poi-ooxml-schemas-3.9.jar" size="4802621" download="eager" />
+    <jar href="lib/xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.dolphin.OdfExcelToXml.MainFrame"  name="Odf Excel To Xml Converter" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
